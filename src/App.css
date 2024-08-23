@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.mushroom-top {
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0 65%);
+}
+
+.mushroom-bottom {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
